@@ -1,0 +1,58 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+pydantic==2.7.0
+pydantic-settings==2.3.0
+python-dotenv==1.0.1
+
+# LLM providers
+openai==1.35.0
+anthropic==0.29.0
+
+# LangGraph
+langgraph
+langchain-core==0.2.0
+
+# Vector store
+qdrant-client==1.10.0
+
+# Sparse encoder (Chunk 2)
+fastembed==0.3.1
+
+# Reranking (Chunk 5)
+sentence-transformers==3.0.1
+
+# Postgres (Chunk 3)
+psycopg2-binary==2.9.9
+
+# Cache (Chunk 8)
+upstash-redis==1.1.0
+
+# Web fallback (Chunk 6)
+tavily-python==0.3.3
+
+# Guardrails (Chunk 9)
+python-jose[cryptography]==3.3.0
+tiktoken==0.7.0
+# llm-guard==0.3.14   # optional, uncomment to enable L2 scan
+
+# Document parsing
+pypdf==4.2.0
+python-docx==1.1.2
+
+# Eval (Chunk 10)
+ragas==0.1.9
+datasets==2.19.0
+
+# UI (Chunk 10)
+streamlit==1.35.0
+
+# Dev / seed
+faker==25.0.0
+pytest==8.2.0
+pytest-asyncio==0.23.7
+
+# Utilities
+tenacity==8.3.0
+loguru==0.7.2
+httpx==0.27.0
